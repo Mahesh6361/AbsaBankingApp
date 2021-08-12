@@ -1,0 +1,13 @@
+{
+    "displayName": "ABSAbanking",
+    "appName": "absabanking",
+    "description": "Absa banking application",
+    "lastModified": "2021-08-10T15:56:47.684Z",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "appType": "classic",
+    "templateName": "blank",
+    "createDate": "2021-08-10T15:56:46.455Z",
+    "analyticsId": "e9f4612c-13a7-5e74-162e-80ac3f1e5cc1",
+    "createdStudioVersion": "7.9.0"
+}

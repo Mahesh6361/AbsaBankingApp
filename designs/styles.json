@@ -1,0 +1,13 @@
+{
+    "classes": [
+        "loginimage",
+        "loginbtn",
+        "card",
+        "logindetails",
+        "icons",
+        "span",
+        "dashboard-icons",
+        "dashboard",
+        "dashboard-image"
+    ]
+}

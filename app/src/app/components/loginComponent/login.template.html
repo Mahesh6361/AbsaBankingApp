@@ -1,0 +1,41 @@
+<div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+  <mat-card style="padding:0px;" class="card">
+    <mat-card-content align="left">
+      <div fxLayout="row wrap" style="width:100%; height:100%;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="column wrap" class="logindetails" fxFlex="50%" fxLayoutAlign="start center" [fxShow]="true" [fxHide]="false">
+          <form [formGroup]="userform">
+            <div fxLayout="row wrap" style="width:100%; height:70px; margin-top:50px; padding:10px;" fxLayoutGap="6px" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+              <mat-icon class="icons">person</mat-icon>
+              <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+                <input matInput type="text" placeholder="Username" [required]="false" formControlName="username">
+                <mat-error align="start" *ngIf="userform.controls.username.errors?.required">Username is Required</mat-error>
+                <mat-error align="end" *ngIf="userform.controls.username.errors?.pattern">Please enter valid details</mat-error>
+              </mat-form-field>
+            </div>
+            <div fxLayout="row wrap" style="width:100%;" fxLayoutGap="6px" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+              <mat-icon class="icons">lock</mat-icon>
+              <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+                <input matInput type="password" placeholder="Password" [required]="false" formControlName="password">
+                <mat-error align="start" *ngIf="userform.controls.password.errors?.required">Password is Required</mat-error>
+                <mat-error align="end" *ngIf="userform.controls.username.errors?.maxLength">Please enter valid password</mat-error>
+              </mat-form-field>
+            </div>
+            <div fxLayout="row wrap" style="width:100%;" fxLayoutGap="50px" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+              <p style="font-size:12px;">
+                Can&apos;t Login ?</p><button mat-raised-button class="loginbtn" (click)="onClick()">Login</button>
+            </div>
+          </form>
+        </div>
+        <div fxLayout="column " class="loginimage" fxFlex="50%" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+          <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+            <div fxLayout="column wrap" style="color:white;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+              <p style="font-size:26px;">
+                Welcome to</p><span class="span">
+                Log in to access your account</span>
+            </div><img imgSrc="/MaterialIcons/iconfont/absa.png">
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

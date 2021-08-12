@@ -1,0 +1,22 @@
+{
+    "routes": [
+        {
+            "path": "login",
+            "component": "loginComponent"
+        },
+        {
+            "path": "dashboard",
+            "component": "dashboardComponent"
+        },
+        {
+            "path": "''",
+            "redirectTo": "dashboard",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

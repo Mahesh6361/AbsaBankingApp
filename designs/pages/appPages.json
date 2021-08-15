@@ -8,5 +8,15 @@
         "appPageName": "dashboard",
         "componentName": "dashboardComponent",
         "createDate": "2021-08-11T05:20:13.054Z"
+    },
+    "b3a7d535-a69b-cba4-2d5c-4712db53c8ad": {
+        "appPageName": "contactdetails",
+        "componentName": "contactdetailsComponent",
+        "createDate": "2021-08-13T18:29:21.348Z"
+    },
+    "9876ebc9-9dae-8ec8-21d6-948c61610b90": {
+        "appPageName": "customer",
+        "componentName": "customerComponent",
+        "createDate": "2021-08-15T08:17:19.868Z"
     }
 }

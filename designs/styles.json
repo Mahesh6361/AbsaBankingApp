@@ -8,6 +8,17 @@
         "span",
         "dashboard-icons",
         "dashboard",
-        "dashboard-image"
+        "dashboard-image",
+        "worklist",
+        "worklist-content",
+        "worklist-header",
+        "worklist-add",
+        "woworklist-add-icon",
+        "worklist-serchIcon",
+        "taskdetails",
+        "taskDropdown",
+        "mat-table",
+        "colomn",
+        "mat-column-demo-name"
     ]
 }

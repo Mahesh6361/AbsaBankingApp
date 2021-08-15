@@ -15,6 +15,10 @@ window['neutrinos'] = {
 }
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-customerComponent
+import { customerComponent } from '../components/customerComponent/customer.component';
+//CORE_REFERENCE_IMPORT-contactdetailsComponent
+import { contactdetailsComponent } from '../components/contactdetailsComponent/contactdetails.component';
 //CORE_REFERENCE_IMPORT-dashboardComponent
 import { dashboardComponent } from '../components/dashboardComponent/dashboard.component';
 //CORE_REFERENCE_IMPORT-loginComponent
@@ -46,6 +50,10 @@ export const appDeclarations = [
   PageNotFoundComponent,
   ArtImgSrcDirective,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-customerComponent
+customerComponent,
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-contactdetailsComponent
+contactdetailsComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-dashboardComponent
 dashboardComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-loginComponent
@@ -76,5 +84,5 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{path: 'login', component: loginComponent},{path: 'dashboard', component: dashboardComponent},{path: '', redirectTo: 'dashboard', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
+export const appRoutes = [{path: 'login', component: loginComponent},{path: 'dashboard', component: dashboardComponent},{path: 'contactdetails', component: contactdetailsComponent},{path: 'customer', component: customerComponent},{path: '', redirectTo: 'login', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END

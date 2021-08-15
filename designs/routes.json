@@ -9,8 +9,16 @@
             "component": "dashboardComponent"
         },
         {
+            "path": "contactdetails",
+            "component": "contactdetailsComponent"
+        },
+        {
+            "path": "customer",
+            "component": "customerComponent"
+        },
+        {
             "path": "''",
-            "redirectTo": "dashboard",
+            "redirectTo": "login",
             "pathMatch": "full",
             "default": true
         },

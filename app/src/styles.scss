@@ -7,7 +7,7 @@
     font-family: sans-serif;
 }
 .loginimage {
-    height: 20rem;
+    height: 25rem;
     background-color: rgb(215 1 50);
 }
 .loginbtn { 
@@ -18,16 +18,16 @@
     color: white;
 }
 .card{
-    width:70%; height:20rem;
+    width:70%; height:25rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 40%);
+    transform: translate(-50%, 35%);
     box-shadow: 0px 8px rgb(0 0 0 / 10%),
                 0 6px 6px -28px rgb(0 0 0 );
 }
 .logindetails {
-    height: 20rem;
+    height: 25rem;
     width: 50%;
     padding: 0px;
 }
@@ -58,4 +58,65 @@ img {
     height:30px;
     border-radius: 50%;
     background-color: red;
+    margin-left: 0px;;
 }
+.worklist {
+    width:100%; 
+    padding-top:50px;
+}
+.worklist-content {
+    width:80%;
+    height:30px;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(209, 206, 206);
+}
+.worklist-header{
+    width:auto; 
+    padding:5px;  
+    font-size:20px;
+    letter-spacing: 1px;
+}
+.worklist-add {
+    width:90px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    border-radius: 80px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.woworklist-add-icon {
+    width: 18px;
+    height: 18px;
+    padding: 1px;
+    margin-left: 15px;
+    // margin-top: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+.worklist-serchIcon {
+    width: 50px;
+    height: 25px;
+}
+.taskdetails {
+    width:80%;
+    height:30px;
+    padding: 5px 0px;
+}
+.taskDropdown {
+    padding:2px;
+    cursor: pointer;
+}
+table.mat-table {
+    text-align: center;
+}
+.colomn {
+    text-align: end;
+}
+.mat-column-demo-name {
+  margin-left: 116px;
+  font-size: 20px;
+}
+// Contact Details

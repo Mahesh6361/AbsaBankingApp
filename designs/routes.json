@@ -17,6 +17,10 @@
             "component": "customerComponent"
         },
         {
+            "path": "referdialog",
+            "component": "referdialogComponent"
+        },
+        {
             "path": "''",
             "redirectTo": "login",
             "pathMatch": "full",

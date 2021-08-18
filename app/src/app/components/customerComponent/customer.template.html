@@ -22,8 +22,8 @@
             </div>
           </div>
           <div fxLayout="row wrap" style="width:100%; margin-top:15px;" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
-            <div fxLayout="row wrap" style="width:80%;" class="taskdetails" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
-              <div fxLayout="row wrap" style="padding:2px;" fxFlex="20" fxLayoutAlign="space-around stretch" [fxShow]="true" [fxHide]="false">
+            <div fxLayout="row wrap" style="width:80%; padding:0px 15px;" class="taskdetails" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
+              <div fxLayout="row wrap" style="padding:2px;" fxFlex="20" fxLayoutAlign="space-between stretch" [fxShow]="true" [fxHide]="false">
                 <div style="padding:2px;">
                   Task ID</div>
                 <div fxLayout="row wrap" class="taskDropdown" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
@@ -35,7 +35,7 @@
                 <div>
                   Task Description</div>
               </div>
-              <div fxLayout="row wrap" style="padding:2px;" fxFlex="35" fxLayoutAlign="space-evenly space-around" [fxShow]="true" [fxHide]="false">
+              <div fxLayout="row wrap" style="padding:2px;" fxFlex="35" fxLayoutAlign="space-between space-around" [fxShow]="true" [fxHide]="false">
                 <div fxLayout="row wrap" class="taskDropdown" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
                   <div>
                     Due Date</div><img imgSrc="/MaterialIcons/iconfont/DropDown.png" style="width:10px;height:10px;margin-left:5px; margin-top:5px;">
@@ -85,9 +85,9 @@
                     <ng-container matColumnDef="987db608-8420-386d-7bfe-d86b174b2622">
                       <th mat-header-cell *matHeaderCellDef></th>
                       <td mat-cell *matCellDef="let table; let i = index;">
-                        <div fxLayout="row wrap" style="margin-right:0px;" fxLayoutAlign="center end" [fxShow]="true" [fxHide]="false">
+                        <div fxLayout="row wrap" style="margin-right:0px; padding-left:10px;" fxLayoutAlign="center end" [fxShow]="true" [fxHide]="false">
                           <mat-icon style="font-size:16px;">edit</mat-icon>
-                          <mat-icon style="font-size:16px;">delete</mat-icon>
+                          <mat-icon style="font-size:16px; color:red;">delete</mat-icon>
                         </div>
                       </td>
                     </ng-container>
@@ -101,19 +101,19 @@
       <mat-step label="Cunduct Risk Assessment"></mat-step>
       <mat-step label="Prepare Marchent Application"></mat-step>
       <mat-step label="Finalize Marchent Application">
-        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="column wrap" style="margin-top:0px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
             <div fxLayout="column wrap" style="width:100%;" fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
               <div fxLayout="row wrap" style="width:100%; " fxLayoutAlign="center stretch" [fxShow]="true" [fxHide]="false">
                 <div fxLayout="row wrap" style=" width:80%;     height:30px;     padding: 5px 0px;" fxLayoutAlign="start end" [fxShow]="true" [fxHide]="false">
-                  <div fxLayout="row wrap" style="width:100%;" fxFlex="25" fxLayoutAlign="start end" [fxShow]="true" [fxHide]="false">
+                  <div fxLayout="row wrap" style="width:100%;" fxFlex="65" fxLayoutAlign="start end" [fxShow]="true" [fxHide]="false">
                     <div fxLayout="row wrap" style="width:100%;font-size:20px; letter-spacing: 1px;" fxLayoutAlign="start end" [fxShow]="true" [fxHide]="false">
                       <div>
                         Contact Person Details</div>
                     </div>
                   </div>
-                  <div fxLayout="row wrap" fxFlex="75" fxLayoutAlign="end end" [fxShow]="true" [fxHide]="false">
-                    <div fxLayout="row wrap" style="cursor:pointer;" fxFlex="10" fxLayoutAlign="end stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/MaterialIcons/iconfont/271218.png" style="width:15px;height:10px; margin-top:4px;margin-right:4px;">
+                  <div fxLayout="row wrap" fxFlex="35" fxLayoutAlign="end end" [fxShow]="true" [fxHide]="false">
+                    <div fxLayout="row wrap" style="cursor:pointer;" fxLayoutAlign="end stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/MaterialIcons/iconfont/271218.png" style="width:15px;height:10px; margin-top:4px;margin-right:4px;">
                       <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
                         <div>
                           Back</div>
@@ -138,7 +138,7 @@
                         <div fxLayout="row wrap" style=" opacity:0.6;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
                           <mat-icon style="margin-top:5px; margin-right:10px;">person</mat-icon>
                           <div fxLayout="column wrap" style="line-height:18px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><span style="font-size:12px;">
-                Customer Name</span>
+                Sur Name</span>
                             <p style="margin-top:0px;font-size:18px;">
                               Manisuresh</p>
                           </div>
@@ -146,9 +146,9 @@
                         <div fxLayout="row wrap" style=" opacity:0.6;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
                           <mat-icon style="margin-top:5px; margin-right:10px;">person</mat-icon>
                           <div fxLayout="column wrap" style="line-height:18px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><span style="font-size:12px;">
-                Customer Name</span>
+                Reference Number</span>
                             <p style="margin-top:0px;font-size:18px;">
-                              Manisuresh</p>
+                              EC0215466587</p>
                           </div>
                         </div>
                       </div>
@@ -156,25 +156,25 @@
                         <div fxLayout="row wrap" style=" opacity:0.6;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
                           <mat-icon style="margin-top:5px; margin-right:10px;">person</mat-icon>
                           <div fxLayout="column wrap" style="line-height:18px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><span style="font-size:12px;">
-                Customer Name</span>
+                Date Lead Received</span>
                             <p style="margin-top:0px;font-size:18px;">
-                              Manisuresh</p>
+                              14/08/2021, 4.30PM</p>
                           </div>
                         </div>
                         <div fxLayout="row wrap" style=" opacity:0.6;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
                           <mat-icon style="margin-top:5px; margin-right:10px;">person</mat-icon>
                           <div fxLayout="column wrap" style="line-height:18px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><span style="font-size:12px;">
-                Customer Name</span>
+                Primary Contact Number</span>
                             <p style="margin-top:0px;font-size:18px;">
-                              Manisuresh</p>
+                              9876543210</p>
                           </div>
                         </div>
                         <div fxLayout="row wrap" style=" opacity:0.6;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
                           <mat-icon style="margin-top:5px; margin-right:10px;">person</mat-icon>
                           <div fxLayout="column wrap" style="line-height:18px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"><span style="font-size:12px;">
-                Customer Name</span>
+                Secondary Contact Number</span>
                             <p style="margin-top:0px;font-size:18px;">
-                              Manisuresh</p>
+                              9854755882</p>
                           </div>
                         </div>
                       </div>
@@ -198,7 +198,7 @@
                   </div>
                   <div fxLayout="row wrap" style="border-radius: 20px;width:180px;height:35px;background-color:#28a745; padding:auto; cursor:pointer;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
                     <p style="color:white;">
-                      Decline Proposal</p><img imgSrc="/MaterialIcons/iconfont/select.png" style="border-radius:50%;width:20px; height:20px;background-color:white;">
+                      Accept Proposal</p><img imgSrc="/MaterialIcons/iconfont/select.png" style="border-radius:50%;width:20px; height:20px;background-color:white;">
                   </div>
                   <div fxLayout="row wrap" style="border-radius: 20px;width:180px;height:35px;background-color:#dc3545; padding:auto; cursor:pointer;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
                     <p style="color:white;">

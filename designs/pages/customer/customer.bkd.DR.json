@@ -1318,7 +1318,7 @@
                                     },
                                     {
                                         "_key": "style",
-                                        "_value": "width:80%;",
+                                        "_value": "width:80%; padding:0px 15px;",
                                         "_type": "kv",
                                         "_attrDef": "p"
                                     },
@@ -1417,7 +1417,7 @@
                                         },
                                         {
                                             "_key": "layoutAlign",
-                                            "_value": "space-around",
+                                            "_value": "space-between",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         },
@@ -2333,7 +2333,7 @@
                                         },
                                         {
                                             "_key": "layoutAlign",
-                                            "_value": "space-evenly",
+                                            "_value": "space-between",
                                             "_type": "a",
                                             "_attrDef": "p"
                                         },
@@ -3812,7 +3812,7 @@
                                                     },
                                                     {
                                                         "_key": "style",
-                                                        "_value": "margin-right:0px;",
+                                                        "_value": "margin-right:0px; padding-left:10px;",
                                                         "_type": "kv",
                                                         "_attrDef": "p"
                                                     },
@@ -3910,7 +3910,7 @@
                                                     "designerReference": [
                                                         {
                                                             "_key": "style",
-                                                            "_value": "font-size:16px;",
+                                                            "_value": "font-size:16px; color:red;",
                                                             "_type": "kv",
                                                             "_attrDef": "p"
                                                         },
@@ -4184,7 +4184,7 @@
                             },
                             {
                                 "_key": "style",
-                                "_value": "",
+                                "_value": "margin-top:0px;",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -4531,7 +4531,7 @@
                                                 },
                                                 {
                                                     "_key": "fxFlex",
-                                                    "_value": "25",
+                                                    "_value": "65",
                                                     "_type": "kv",
                                                     "_attrDef": "p"
                                                 },
@@ -4881,7 +4881,7 @@
                                                 },
                                                 {
                                                     "_key": "fxFlex",
-                                                    "_value": "75",
+                                                    "_value": "35",
                                                     "_type": "kv",
                                                     "_attrDef": "p"
                                                 },
@@ -4948,7 +4948,7 @@
                                                     },
                                                     {
                                                         "_key": "fxFlex",
-                                                        "_value": "10",
+                                                        "_value": "",
                                                         "_type": "kv",
                                                         "_attrDef": "p"
                                                     },
@@ -6582,7 +6582,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Customer Name",
+                                                                            "_value": "Sur Name",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -7184,7 +7184,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Customer Name",
+                                                                            "_value": "Reference Number",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -7398,7 +7398,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Manisuresh",
+                                                                            "_value": "EC0215466587",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -7854,7 +7854,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Customer Name",
+                                                                            "_value": "Date Lead Received",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -8068,7 +8068,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Manisuresh",
+                                                                            "_value": "14/08/2021, 4.30PM",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -8456,7 +8456,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Customer Name",
+                                                                            "_value": "Primary Contact Number",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -8670,7 +8670,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Manisuresh",
+                                                                            "_value": "9876543210",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -9058,7 +9058,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Customer Name",
+                                                                            "_value": "Secondary Contact Number",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -9272,7 +9272,7 @@
                                                                         },
                                                                         {
                                                                             "_key": "html",
-                                                                            "_value": "Manisuresh",
+                                                                            "_value": "9854755882",
                                                                             "_type": "a",
                                                                             "_attrDef": "p"
                                                                         }
@@ -10646,7 +10646,7 @@
                                                         },
                                                         {
                                                             "_key": "html",
-                                                            "_value": "Decline Proposal",
+                                                            "_value": "Accept Proposal",
                                                             "_type": "a",
                                                             "_attrDef": "p"
                                                         }

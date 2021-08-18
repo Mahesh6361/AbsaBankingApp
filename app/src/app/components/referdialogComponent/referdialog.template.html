@@ -1,0 +1,48 @@
+<div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="start start" [fxShow]="true" [fxHide]="false">
+  <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+    <div fxLayout="row wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <form [formGroup]="userForm">
+        <div fxLayout="column wrap" style="width:500px; height:500px;" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput placeholder="Task Name" [required]="false" formControlName="username">
+
+          </mat-form-field>
+          <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+            <input matInput placeholder="Task Description" [required]="false" formControlName="usersurname">
+
+          </mat-form-field><button mat-raised-button (click)="onSubmit()">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div fxLayout="row wrap" style="width:500px; " fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+      <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+        <div fxLayout="column">
+          <table mat-table [dataSource]="datasource" class="table-width-fix">
+            <tr mat-header-row *matHeaderRowDef="[&apos;name&apos;,&apos;surname&apos;,&apos;7125dcb4-38de-7bc6-fb5d-0b1fab081af0&apos;]"></tr>
+            <tr mat-row *matRowDef="let row; columns: [&apos;name&apos;,&apos;surname&apos;,&apos;7125dcb4-38de-7bc6-fb5d-0b1fab081af0&apos;];"></tr>
+
+            <ng-container matColumnDef="name">
+              <th mat-header-cell *matHeaderCellDef></th>
+              <td mat-cell *matCellDef="let table; let i = index;">{{table.name}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="surname">
+              <th mat-header-cell *matHeaderCellDef></th>
+              <td mat-cell *matCellDef="let table; let i = index;">{{table.surname}}</td>
+            </ng-container>
+
+            <ng-container matColumnDef="7125dcb4-38de-7bc6-fb5d-0b1fab081af0">
+              <th mat-header-cell *matHeaderCellDef></th>
+              <td mat-cell *matCellDef="let table; let i = index;">
+                <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
+                  <mat-icon (click)="onRowClick($event)">edit</mat-icon>
+                  <mat-icon>delete</mat-icon>
+                </div>
+              </td>
+            </ng-container>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

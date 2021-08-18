@@ -6,23 +6,35 @@
 * {
     font-family: sans-serif;
 }
+
+.main {
+    width:100%;
+    height: 100%;
+    background-color: whitesmoke;
+    // background-image: url("/MaterialIcons/iconfont/buildings.jpg");
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;
+
+}
 .loginimage {
     height: 25rem;
     background-color: rgb(215 1 50);
 }
 .loginbtn { 
-    width: 80px;
-    height: 30px;
-    border-radius: 20px;
+    width:90px;
+    height: 28px;
+    border-radius: 80px;
     background-color: rgb(243, 10, 10);
     color: white;
+    padding-bottom:5px;
 }
 .card{
     width:70%; height:25rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 35%);
+    transform: translate(-50%, -50%);
     box-shadow: 0px 8px rgb(0 0 0 / 10%),
                 0 6px 6px -28px rgb(0 0 0 );
 }
@@ -30,6 +42,7 @@
     height: 25rem;
     width: 50%;
     padding: 0px;
+     
 }
 .icons {
     margin-top: 18px;
@@ -39,7 +52,7 @@
     margin-top:-25px; 
     font-size:10px;
     color: white;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 img {
     width: 80px;
@@ -47,8 +60,9 @@ img {
     margin-left: 15px;
 }
 .dashboard-icons {
-    margin-top: 15px;
-    font-size: 18px;
+    margin-top: 17px;
+    font-size: 20px;
+    margin-right: 5px;
 }
 .dashboard {
     font-size: 14px;
@@ -109,14 +123,20 @@ img {
     padding:2px;
     cursor: pointer;
 }
-table.mat-table {
-    text-align: center;
+// table.mat-table {
+    // text-align: center;
+        
+// }
+// .colomn {
+//     text-align: end;
+// }
+table th {
+    background-color: whitesmoke;
+    
+    // font-size-adjust: 40px;
 }
-.colomn {
-    text-align: end;
-}
-.mat-column-demo-name {
-  margin-left: 116px;
-  font-size: 20px;
-}
+// .mat-header {
+//     background-color: red;
+//   font-size: 40px;
+// }
 // Contact Details

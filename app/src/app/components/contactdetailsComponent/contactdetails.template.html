@@ -1,4 +1,4 @@
-<div fxLayout="row wrap" style="width:100%;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+<div fxLayout="row wrap" style="width:100%; height:100%;background-color:whitesmoke;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
   <div fxLayout="row wrap" style="width:100%; padding:15px;" fxLayoutGap="5px" fxLayoutAlign="start start" [fxShow]="true" [fxHide]="false">
     <div fxLayout="column wrap" fxFlex="25" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
       <mat-card style="width:80%; height:20rem; border-radius:15px;">
@@ -32,16 +32,12 @@
               <div fxLayout="row wrap" style="border-radius: 20px;width:70%; height:35px;background-color:#28a745; padding:auto;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
                 <div style="color:white;">
                   Accept Proposal</div>
-                <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false"></div>
               </div>
               <div fxLayout="row wrap" style="border-radius: 20px;width:70%;height:35px;background-color:#dc3545; padding:auto;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
                 <div style="color:white;">
                   Decline Proposal</div>
               </div>
-              <div fxLayout="row wrap" style="border-radius: 20px;width:70%; height:35px;background-color:#007bfe; padding:auto;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
-                <div>
-                  Refer Proposal</div>
-              </div>
+              <div fxLayout="row wrap" style="border-radius: 20px;width:70%; height:35px;background-color:#007bfe; padding:auto;" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false"><button mat-button (click)="openDialog()">Refer Proposal</button></div>
             </div>
           </div>
         </mat-card-content>
@@ -53,7 +49,7 @@
           <div style="font-weight:600;">
             Contact Person Details</div>
         </div>
-        <div fxLayout="row wrap" style="cursor:pointer;" fxFlex="10" fxLayoutAlign="end stretch" [fxShow]="true" [fxHide]="false"><img imgSrc="/MaterialIcons/iconfont/271218.png" style="width:15px;height:10px; margin-top:4px;margin-right:4px;">
+        <div fxLayout="row wrap" style="cursor:pointer;" fxFlex="10" fxLayoutAlign="end stretch" [fxShow]="true" [fxHide]="false" (click)="backtoDash()"><img imgSrc="/MaterialIcons/iconfont/271218.png" style="width:15px;height:10px; margin-top:4px;margin-right:4px;">
           <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
             <div>
               Back</div>

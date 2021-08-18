@@ -1,0 +1,14 @@
+{
+    "appPageId": "4668d09a-f258-10a4-110c-b2e55c1c30e7",
+    "appPageName": "referdialog",
+    "componentName": "referdialogComponent",
+    "selectorName": "bh-referdialog",
+    "htmlFileName": "referdialog.template.html",
+    "tsFileName": "referdialog.component.ts",
+    "createDate": "2021-08-16T04:09:41.233Z",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

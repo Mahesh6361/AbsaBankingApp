@@ -1,5 +1,6 @@
 {
     "classes": [
+        "main",
         "loginimage",
         "loginbtn",
         "card",
@@ -16,9 +17,6 @@
         "woworklist-add-icon",
         "worklist-serchIcon",
         "taskdetails",
-        "taskDropdown",
-        "mat-table",
-        "colomn",
-        "mat-column-demo-name"
+        "taskDropdown"
     ]
 }

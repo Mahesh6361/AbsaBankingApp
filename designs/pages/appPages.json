@@ -18,5 +18,10 @@
         "appPageName": "customer",
         "componentName": "customerComponent",
         "createDate": "2021-08-15T08:17:19.868Z"
+    },
+    "4668d09a-f258-10a4-110c-b2e55c1c30e7": {
+        "appPageName": "referdialog",
+        "componentName": "referdialogComponent",
+        "createDate": "2021-08-16T04:09:41.233Z"
     }
 }

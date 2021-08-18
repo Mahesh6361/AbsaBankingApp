@@ -18,7 +18,9 @@
             },
             {
                 "_key": "class",
-                "_value": "",
+                "_value": [
+                    "main"
+                ],
                 "_type": "dav",
                 "_attrDef": "p"
             },
@@ -219,7 +221,7 @@
                             },
                             {
                                 "_key": "fxFlex",
-                                "_value": "",
+                                "_value": "50",
                                 "_type": "kv",
                                 "_attrDef": "p"
                             },
@@ -624,7 +626,7 @@
                                 },
                                 {
                                     "_key": "style",
-                                    "_value": "margin-left:110px; margin-top:25px;",
+                                    "_value": "margin-top:30px;margin-left:110px; opacity:0.7;",
                                     "_type": "kv",
                                     "_attrDef": "p"
                                 },
@@ -662,7 +664,7 @@
                                 },
                                 {
                                     "_key": "pLayoutAlign",
-                                    "_value": "center",
+                                    "_value": "stretch",
                                     "_type": "a",
                                     "_attrDef": "p"
                                 },
@@ -1673,7 +1675,7 @@
                                             },
                                             {
                                                 "_key": "type",
-                                                "_value": "",
+                                                "_value": "submit",
                                                 "_type": "kv",
                                                 "_attrDef": "p"
                                             },

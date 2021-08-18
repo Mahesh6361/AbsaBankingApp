@@ -15,6 +15,8 @@ window['neutrinos'] = {
 }
 
 //CORE_REFERENCE_IMPORTS
+//CORE_REFERENCE_IMPORT-referdialogComponent
+import { referdialogComponent } from '../components/referdialogComponent/referdialog.component';
 //CORE_REFERENCE_IMPORT-customerComponent
 import { customerComponent } from '../components/customerComponent/customer.component';
 //CORE_REFERENCE_IMPORT-contactdetailsComponent
@@ -50,6 +52,8 @@ export const appDeclarations = [
   PageNotFoundComponent,
   ArtImgSrcDirective,
   //CORE_REFERENCE_PUSH_TO_DEC_ARRAY
+//CORE_REFERENCE_PUSH_TO_DEC_ARRAY-referdialogComponent
+referdialogComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-customerComponent
 customerComponent,
 //CORE_REFERENCE_PUSH_TO_DEC_ARRAY-contactdetailsComponent
@@ -84,5 +88,5 @@ export const appProviders = [
 */
 
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_START
-export const appRoutes = [{path: 'login', component: loginComponent},{path: 'dashboard', component: dashboardComponent},{path: 'contactdetails', component: contactdetailsComponent},{path: 'customer', component: customerComponent},{path: '', redirectTo: 'login', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
+export const appRoutes = [{path: 'login', component: loginComponent},{path: 'dashboard', component: dashboardComponent},{path: 'contactdetails', component: contactdetailsComponent},{path: 'customer', component: customerComponent},{path: 'referdialog', component: referdialogComponent},{path: '', redirectTo: 'login', pathMatch: 'full'},{path: '**', component: PageNotFoundComponent}]
 // CORE_REFERENCE_PUSH_TO_ROUTE_ARRAY_END
